@@ -41,7 +41,7 @@ export default function App() {
     <>
       <header className="topbar">
         <div className="container">
-          <span className="logo">⚽ Aides Foot</span>
+          <span className="logo">⚽ Panenka</span>
         </div>
       </header>
 
@@ -104,7 +104,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <div className="container">© {new Date().getFullYear()} Aides Foot</div>
+        <div className="container">© {new Date().getFullYear()} Panenka</div>
       </footer>
     </>
   )
