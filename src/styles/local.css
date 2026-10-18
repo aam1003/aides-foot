@@ -1,0 +1,26 @@
+[data-style="local"] {
+  --green: #2f855a; --green-dark: #22543d;
+  font-family: 'Nunito', system-ui, sans-serif; color: #2d2a26; background: #fffaf3;
+}
+[data-style="local"] body { background: #fffaf3; }
+[data-style="local"] .topbar { border-color: #f1e6d6; }
+[data-style="local"] .logo { color: #22543d; font-weight: 800; }
+[data-style="local"] .hero {
+  background:
+    radial-gradient(circle at 12% 30%, #fde68a 0 60px, transparent 61px),
+    radial-gradient(circle at 88% 70%, #fecaca 0 80px, transparent 81px),
+    #fef3e2;
+  padding: 96px 0;
+}
+[data-style="local"] .hero h1 { font-weight: 800; color: #22543d; }
+[data-style="local"] .lead { color: #6b5e4e; }
+[data-style="local"] .badge { background: #fff; color: #c2410c; padding: 6px 16px; border-radius: 999px; box-shadow: 0 2px 0 #f1e6d6; }
+[data-style="local"] .btn { border-radius: 999px; font-weight: 800; }
+[data-style="local"] .btn-primary { background: #2f855a; border-color: #2f855a; box-shadow: 0 4px 0 #22543d; }
+[data-style="local"] .btn-secondary { background: #fff; border-color: #2f855a; }
+[data-style="local"] .section h2 { color: #22543d; font-weight: 800; }
+[data-style="local"] .section-alt { background: #fef3e2; }
+[data-style="local"] .card { border-radius: 20px; border: 2px solid #f1e6d6; background: #fff; }
+[data-style="local"] .card p { color: #6b5e4e; }
+[data-style="local"] .step-number { background: #f97316; }
+[data-style="local"] .footer { border-color: #f1e6d6; }

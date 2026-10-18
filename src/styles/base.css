@@ -52,3 +52,6 @@ h1, h2, h3 { line-height: 1.2; margin: 0 0 0.5rem; }
 }
 
 .footer { border-top: 1px solid var(--border); padding: 24px 0; color: var(--muted); font-size: 0.875rem; text-align: center; }
+
+.badge { display: inline-block; font-size: 0.875rem; font-weight: 600; margin: 0 0 16px; }
+.card-icon { display: block; font-size: 1.75rem; margin-bottom: 12px; }

@@ -1,9 +1,11 @@
 const sources = [
   {
+    icon: '🏛️',
     title: 'Aides publiques',
     text: 'Mairie, département, région, État : les subventions accessibles à votre club.',
   },
   {
+    icon: '🏆',
     title: 'Fédération et ligue',
     text: 'Les dispositifs de la fédération et de votre ligue de football.',
   },
@@ -27,6 +29,7 @@ export default function App() {
       <main>
         <section className="hero">
           <div className="container">
+            <p className="badge">Pour les clubs de foot amateurs</p>
             <h1>Trouvez les financements pour votre club de foot amateur</h1>
             <p className="lead">
               Que votre club existe déjà ou soit en création, découvrez en quelques minutes
@@ -65,6 +68,7 @@ export default function App() {
             <div className="grid">
               {sources.map((source) => (
                 <article key={source.title} className="card">
+                  <span className="card-icon" aria-hidden="true">{source.icon}</span>
                   <h3>{source.title}</h3>
                   <p>{source.text}</p>
                 </article>
